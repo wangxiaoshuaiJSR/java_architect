@@ -2,32 +2,114 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9a3080f-d844-4584-85cc-a3eb0a1f0f91" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Course.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/CourseBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/CreatePrototypeClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/CreatePrototypeCloneByJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/CreatePrototypeClone.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/IPrototype.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/ContainerSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/EnumSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/HungrySingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/HungryStaticSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazyDoubleCheckSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazySimpleSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazyStaticInnerClassSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/ThreadLocalSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/PassportService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/ResultMsg.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v1/PassportForThirdAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/AbstractAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/ILoginAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/IPassportThird.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/LoginForPhoneAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/LoginForQQAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/LoginForTokenAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/LoginForWechatAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/adapterpattern/v2/PassportForThirdAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/chainpattern/AuthHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/chainpattern/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/chainpattern/LoginHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/chainpattern/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/chainpattern/MemberService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/chainpattern/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/chainpattern/ValidateHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/decoratorpattern/BaseBattercake.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/decoratorpattern/BattercakeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/decoratorpattern/EggDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/decoratorpattern/SausageDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/decoratorpattern/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/flyweightpattern/ConnectionPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/flyweightpattern/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/interpreterpattern/SpringExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/ChatRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/AService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/BService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/CService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/IService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/Registry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Gper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Teacher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/guava/GuavaEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/guava/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/dynamicproxy/cglib/CGlibMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/dynamicproxy/cglib/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/dynamicproxy/cglib/ZhangSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/dynamicproxy/jdk/JDKMeipo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/dynamicproxy/jdk/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/dynamicproxy/jdk/ZhangSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/dynamicproxy/jdk/ZhaoLiu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/staticproxy/IPerson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/staticproxy/LaoZhangSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/staticproxy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/proxypattern/staticproxy/ZhangSan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/BusinessReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/CEOVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/CTOVisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Ivisitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Manager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/RequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/demo/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/DispatchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/HandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/resources/webdefault.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v1/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/RequestMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/RequestParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/BeanWrapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/config/BeanDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/support/BeanDefinitionReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/context/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/action/MyAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/IModifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/IQueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/impl/ModifyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/impl/QueryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/web/DispatchServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/web/HandlerMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/resources/webdefault.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-code-v2/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/design_pattern/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/design_pattern/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/framework_design_principles/target/" />
     <ignored path="$PROJECT_DIR$/design_pattern/target/" />
+    <ignored path="$PROJECT_DIR$/spring-code-v1/target/" />
+    <ignored path="$PROJECT_DIR$/spring-code-v2/target/" />
+    <ignored path="$PROJECT_DIR$/job_all/spring-quartz/target/" />
+    <ignored path="$PROJECT_DIR$/job_all/quartz-standalone/target/" />
+    <ignored path="$PROJECT_DIR$/job_all/springboot-quartz/target/" />
+    <ignored path="$PROJECT_DIR$/job_all/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,174 +120,56 @@
     <session id="1906442207">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.closed" value="17" />
+          <entry key="project.open.time.0" value="4" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="2" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.7" value="4" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.9" value="3" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="132" />
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="296" />
+          <entry key="Properties" value="5" />
           <entry key="UML" value="5" />
-          <entry key="XML" value="7" />
+          <entry key="XML" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4212" />
+          <entry key="JAVA" value="11932" />
+          <entry key="Properties" value="12" />
           <entry key="VTL" value="69" />
-          <entry key="XML" value="39" />
+          <entry key="XML" value="94" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/CreatePrototypeClone.java">
+        <entry file="file://$PROJECT_DIR$/job_all/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-900">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#277#278#0" expanded="true" />
-                <element signature="e#312#313#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#373#374#0" expanded="true" />
-                <element signature="e#400#401#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#472#473#0" expanded="true" />
-                <element signature="e#797#798#0" expanded="true" />
-                <element signature="e#827#828#0" expanded="true" />
-                <element signature="e#879#880#0" expanded="true" />
-                <element signature="e#917#918#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/CreatePrototypeClone.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-475">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Course.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="13" column="28" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#323#324#0" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#395#396#0" expanded="true" />
-                <element signature="e#425#426#0" expanded="true" />
-                <element signature="e#451#452#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
-                <element signature="e#551#552#0" expanded="true" />
-                <element signature="e#579#580#0" expanded="true" />
-                <element signature="e#621#622#0" expanded="true" />
-                <element signature="e#655#656#0" expanded="true" />
-                <element signature="e#686#687#0" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#753#754#0" expanded="true" />
-                <element signature="e#785#786#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#899#900#0" expanded="true" />
-                <element signature="e#939#940#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/CourseBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-              <folding>
-                <element signature="e#219#220#0" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="275">
-              <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/CreatePrototypeCloneByJson.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="57" column="34" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#411#419#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/software/maven/repository/com/alibaba/fastjson/1.2.9/fastjson-1.2.9.jar!/com/alibaba/fastjson/JSONObject.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#462#470#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="375">
+              <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
             </state>
           </provider>
         </entry>
@@ -224,10 +188,15 @@
     <findStrings>
       <find>泛滥</find>
       <find>get</find>
+      <find>init</find>
+      <find>lo</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
+    <dirStrings>
+      <dir>D:\code\java_architect_lesson\design_pattern\src\main\java</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -235,57 +204,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/simplefactorypattern/CourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/simplefactorypattern/factorymethodpatten/ICourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/factorymethodpatten/ICourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/factorymethodpatten/JavaCourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/factorymethodpatten/PythosCourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/factorymethodpatten/Test.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaCourse.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/IVideo.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/INote.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/CourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaVideo.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/PythonVideo.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaNote.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/PythonNote.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/PythonCourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/AbstractCourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/Test.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaCourseFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/Payment.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/AliPayment.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/PaymentFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/WeiChatPayment.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/AliPaymentFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/WeiChatPaymentFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/UninComPayment.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/UninComPaymentFactory.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/Test.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/HungrySingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/HungryStaticSingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazySimpleSingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazyDoubleCheckSingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazyStaticInnerClassSingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/EnumSingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/ContainerSingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/Test.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/ThreadLocalSingleton.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/IPrototype.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/CreatePrototypeClone.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/Test.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/Test.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/deep/CreatePrototypeClone.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/Test.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/CreatePrototypeClone.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Course.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Tet.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/CourseBuilder.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Test.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/IService.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/CService.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/BService.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/AService.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/mediatorpattern/rpc/Registry.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/interpreterpattern/SpringExpression.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Gper.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Teacher.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Question.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/Test.java" />
         <option value="$PROJECT_DIR$/design_pattern/pom.xml" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/CreatePrototypeClone.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/CreatePrototypeCloneByJson.java" />
-        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/Test.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/guava/Test.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/observerpattern/guava/GuavaEvent.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Ivisitor.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/CTOVisitor.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/CEOVisitor.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Employee.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Engineer.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Manager.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/BusinessReport.java" />
+        <option value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Test.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/servlet/GPAutowired.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/GPAutowired.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/GPController.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/GPRequestMapping.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/GPRequestParam.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/GPService.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/servlet/DispatchServlet.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/Handler.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/demo/Test.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/HandlerMapping.java" />
+        <option value="$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/DispatchServlet.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/Autowired.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/ApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/context/ApplicationContext.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/web/HandlerMapping.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/config/BeanDefinition.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/support/BeanDefinitionReader.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/BeanWrapper.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/web/DispatchServlet.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/action/MyAction.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/impl/ModifyService.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/impl/QueryService.java" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/context/ApplicationContext.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -309,17 +278,57 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-code-v2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-code-v2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="spring-code-v2" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+          <item name="jetty" type="36feed69:MavenProjectsStructure$PluginNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1175" />
-    <option name="height" value="1040" />
+    <option name="x" value="10" />
+    <option name="y" value="15" />
+    <option name="width" value="855" />
+    <option name="height" value="670" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Java EE</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>ServletWithoutMappingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,87 +336,19 @@
               <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
               <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wxs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wxs" type="462c0819:PsiDirectoryNode" />
-              <item name="prototypepattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wxs" type="462c0819:PsiDirectoryNode" />
-              <item name="prototypepattern" type="462c0819:PsiDirectoryNode" />
-              <item name="json" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="java_architect_lesson" type="b2602c69:ProjectViewProjectNode" />
-              <item name="java_architect_lesson" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="wxs" type="462c0819:PsiDirectoryNode" />
-              <item name="prototypepattern" type="462c0819:PsiDirectoryNode" />
-              <item name="shollow" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583042646985" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../think_in_spring" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1586686784641" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -416,16 +357,22 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="org.architect.wxs.prototypepattern.json" />
-      <recent name="org.architect.wxs.prototypepattern.deep" />
-      <recent name="org.architect.wxs.pay" />
-      <recent name="org.architect.wxs.abstractfactorypattern" />
-      <recent name="org.architect.wxs.factorymethodpatten" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\java_architect_lesson\design_pattern\src\main\java\org\architect\wxs\prototypepattern\shollow\deep" />
-      <recent name="D:\code\java_architect_lesson\design_pattern\src\main\java\org\architect\wxs\abstractfactorypattern" />
+      <recent name="D:\code\java_architect_lesson\spring-code-v2\src\main\java\org\architect\wxs\spring\framework" />
+      <recent name="D:\code\java_architect_lesson\spring-code-v2\src\main" />
+      <recent name="D:\code\java_architect_lesson\spring-code-v2\src\main\resources" />
+      <recent name="D:\code\java_architect_lesson\spring-code-v1\src\main" />
+      <recent name="D:\code\java_architect_lesson\spring-code-v1\src\main\java\org\architect\wxs\springframework\mvc\annotation\servlet" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.architect.wxs.spring.framework.web" />
+      <recent name="org.architect.wxs.visitorpattern" />
+      <recent name="org.architect.wxs.mediatorpattern.rpc" />
+      <recent name="org.architect.wxs.adapterpattern.v2" />
+      <recent name="org.architect.wxs.proxypattern.dynamicproxy.cglib" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="org.architect.wxs.mediatorpattern.rpc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -440,13 +387,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test (4)">
+  <component name="RunManager" selected="Maven.spring-code-v2 [jetty:run]">
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.singletonpattern.Test" />
+      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.observerpattern.guava.Test" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.architect.wxs.singletonpattern.*" />
+          <option name="PATTERN" value="org.architect.wxs.observerpattern.guava.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,37 +402,11 @@
       </method>
     </configuration>
     <configuration name="Test (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.prototypepattern.deep.Test" />
+      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.visitorpattern.Test" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.architect.wxs.prototypepattern.deep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.builderpattern.Test" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.architect.wxs.builderpattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.prototypepattern.json.Test" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.architect.wxs.prototypepattern.json.*" />
+          <option name="PATTERN" value="org.architect.wxs.visitorpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -494,11 +415,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.pay.Test" />
+      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.observerpattern.Test" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.architect.wxs.pay.*" />
+          <option name="PATTERN" value="org.architect.wxs.observerpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -506,33 +427,70 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.architect.wxs.prototypepattern.shollow.Test" />
-      <module name="design_pattern" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.architect.wxs.prototypepattern.shollow.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
+    <configuration name="spring-code-v1 [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/spring-code-v1" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="spring-code-v2 [jetty:run]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="jetty:run" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/spring-code-v2" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Test (2)" />
-      <item itemvalue="Application.Test (3)" />
-      <item itemvalue="Application.Test (4)" />
+      <item itemvalue="Maven.spring-code-v1 [jetty:run]" />
+      <item itemvalue="Maven.spring-code-v2 [jetty:run]" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test (4)" />
-        <item itemvalue="Application.Test (3)" />
-        <item itemvalue="Application.Test (2)" />
+        <item itemvalue="Maven.spring-code-v2 [jetty:run]" />
+        <item itemvalue="Maven.spring-code-v1 [jetty:run]" />
         <item itemvalue="Application.Test (2)" />
         <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
       </list>
     </recent_temporary>
   </component>
@@ -557,28 +515,46 @@
       <workItem from="1582720255682" duration="6534000" />
       <workItem from="1582950670080" duration="778000" />
       <workItem from="1582969419373" duration="7806000" />
-      <workItem from="1583030446094" duration="7194000" />
+      <workItem from="1583030446094" duration="12004000" />
+      <workItem from="1583116238787" duration="1051000" />
+      <workItem from="1583144523352" duration="1197000" />
+      <workItem from="1584171522684" duration="6530000" />
+      <workItem from="1584236448040" duration="8750000" />
+      <workItem from="1584321609997" duration="8219000" />
+      <workItem from="1584409999354" duration="1358000" />
+      <workItem from="1584882230223" duration="4389000" />
+      <workItem from="1584968042204" duration="4970000" />
+      <workItem from="1585014111283" duration="694000" />
+      <workItem from="1585545020163" duration="13359000" />
+      <workItem from="1585620251223" duration="10133000" />
+      <workItem from="1585704168051" duration="25000" />
+      <workItem from="1585877370153" duration="11695000" />
+      <workItem from="1586230432953" duration="959000" />
+      <workItem from="1586686688749" duration="109000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47777000" />
+    <option name="totallyTimeSpent" value="126025000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31769437" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32624114" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32765958" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.48085105" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.53900707" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -586,7 +562,8 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32624114" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3219858" />
+      <window_info anchor="right" id="Bean Validation" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -595,7 +572,7 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
       <window_info anchor="right" id="Database" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.1802949" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.31769437" />
@@ -634,452 +611,456 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/DispatchServlet.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/DispatchServlet.java</url>
+          <line>121</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/DispatchServlet.java</url>
+          <line>115</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/context/ApplicationContext.java</url>
+          <line>64</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/context/ApplicationContext.java</url>
+          <line>29</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/support/BeanDefinitionReader.java</url>
+          <line>101</line>
+          <properties />
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>beanDefinitions</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>clazz.getMethods()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>map</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>classTypes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>handlerMapping</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>contextPath</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>paramsTypes</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>paramIndexMap</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>params</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/factorymethodpatten/Test.java">
+    <entry file="file://$PROJECT_DIR$/framework_design_principles/src/main/java/architect/org/wxs/demiter/TeamLeader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="44" lean-forward="true" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/simplefactorypattern/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/PythonVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/PythonCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="32" lean-forward="true" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/PythonNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/PythonCourse.java" />
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaCourse.java" />
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/ICourse.java" />
-    <entry file="uml://JAVA/org.architect.wxs.abstractfactorypattern.AbstractCourseFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.architect.wxs.abstractfactorypattern.AbstractCourseFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.JavaNote</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.PythonNote</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.AbstractCourseFactory</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.INote</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.IVideo</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.PythonCourseFactory</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.Test</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.JavaVideo</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.JavaCourseFactory</node>
-            <node x="" y="">org.architect.wxs.abstractfactorypattern.PythonVideo</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="178.0" y="243.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaNote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/JavaCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/INote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/AbstractCourseFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/IVideo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/AbstractPaymentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/org.architect.wxs.pay.AbstractPaymentFactory">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>org.architect.wxs.pay.AbstractPaymentFactory</OriginalElement>
-          <nodes>
-            <node x="" y="">org.architect.wxs.pay.AliPaymentFactory</node>
-            <node x="" y="">org.architect.wxs.pay.AbstractPaymentFactory</node>
-            <node x="" y="">org.architect.wxs.pay.AliPayment</node>
-            <node x="" y="">org.architect.wxs.pay.WeiChatPayment</node>
-            <node x="" y="">org.architect.wxs.pay.UninComPayment</node>
-            <node x="" y="">org.architect.wxs.pay.Payment</node>
-            <node x="" y="">org.architect.wxs.pay.UninComPaymentFactory</node>
-            <node x="" y="">org.architect.wxs.pay.Test</node>
-            <node x="" y="">org.architect.wxs.pay.WeiChatPaymentFactory</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="698.0" y="234.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/UninComPaymentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="35" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="20" column="73" selection-start-line="20" selection-start-column="73" selection-end-line="20" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/AliPaymentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
+        <state relative-caret-position="170">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/abstractfactorypattern/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/AliPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="38" selection-start-line="10" selection-start-column="38" selection-end-line="10" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/WeiChatPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="32" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/WeiChatPaymentFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="10" column="43" selection-start-line="10" selection-start-column="43" selection-end-line="10" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/pay/UninComPayment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazySimpleSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/EnumSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazyStaticInnerClassSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="15" column="45" selection-start-line="15" selection-start-column="45" selection-end-line="15" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="169" column="33" lean-forward="true" selection-start-line="169" selection-start-column="33" selection-end-line="169" selection-end-column="33" />
-          <folding>
-            <element signature="e#7765#7766#0" expanded="true" />
-            <element signature="e#7802#7803#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/ThreadLocalSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="e#263#480#0" expanded="true" />
-            <element signature="e#479#480#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/ContainerSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="26" column="32" lean-forward="true" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/HungrySingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="275">
-          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/HungryStaticSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/singletonpattern/LazyDoubleCheckSingleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/io/PrintStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="819" column="16" selection-start-line="819" selection-start-column="16" selection-end-line="819" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/IPrototype.java">
+    <entry file="file://$PROJECT_DIR$/framework_design_principles/src/main/java/architect/org/wxs/liskovsutitution/QuadRangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/Test.java">
+    <entry file="file://$PROJECT_DIR$/framework_design_principles/src/main/java/architect/org/wxs/liskovsutitution/Rectangle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="156">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/deep/Test.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/Test.java">
+    <entry file="file://$PROJECT_DIR$/framework_design_principles/src/main/java/architect/org/wxs/principle/DBConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#462#470#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/deep/CreatePrototypeClone.java">
+    <entry file="file://$PROJECT_DIR$/framework_design_principles/src/main/java/architect/org/wxs/principle/MySqlConnection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-475">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="200">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Course.java">
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/CTOVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="13" column="28" selection-start-line="9" selection-start-column="3" selection-end-line="13" selection-end-column="28" />
-          <folding>
-            <element signature="e#296#297#0" expanded="true" />
-            <element signature="e#323#324#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-            <element signature="e#425#426#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#579#580#0" expanded="true" />
-            <element signature="e#621#622#0" expanded="true" />
-            <element signature="e#655#656#0" expanded="true" />
-            <element signature="e#686#687#0" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#753#754#0" expanded="true" />
-            <element signature="e#785#786#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#899#900#0" expanded="true" />
-            <element signature="e#939#940#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/CourseBuilder.java">
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/CEOVisitor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-          <folding>
-            <element signature="e#219#220#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="350">
+          <caret line="14" column="72" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/builderpattern/Test.java">
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/BusinessReport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="21" selection-end-line="25" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Ivisitor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="9" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Manager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="275">
-          <caret line="11" column="60" selection-start-line="11" selection-start-column="60" selection-end-line="11" selection-end-column="60" />
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/pom.xml">
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Engineer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
+        <state relative-caret-position="425">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/shollow/CreatePrototypeClone.java">
+    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/visitorpattern/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-900">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#251#252#0" expanded="true" />
-            <element signature="e#277#278#0" expanded="true" />
-            <element signature="e#312#313#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#373#374#0" expanded="true" />
-            <element signature="e#400#401#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#472#473#0" expanded="true" />
-            <element signature="e#797#798#0" expanded="true" />
-            <element signature="e#827#828#0" expanded="true" />
-            <element signature="e#879#880#0" expanded="true" />
-            <element signature="e#917#918#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="605">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/software/maven/repository/com/alibaba/fastjson/1.2.9/fastjson-1.2.9.jar!/com/alibaba/fastjson/JSONObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/resources/webdefault.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="23" column="34" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#411#419#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design_pattern/src/main/java/org/architect/wxs/prototypepattern/json/CreatePrototypeCloneByJson.java">
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/Autowired.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
-          <caret line="57" column="34" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="34" />
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/demo/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/lang/reflect/Method.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="637" column="26" selection-start-line="637" selection-start-column="26" selection-end-line="637" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/Handler.java" />
+    <entry file="jar://D:/software/maven/repository/javax/servlet/servlet-api/2.4/servlet-api-2.4.jar!/javax/servlet/ServletRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="35" column="8" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/HandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1600">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/annotation/RequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/RequestParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/RequestMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/Service.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="15" column="12" selection-start-line="13" selection-start-column="3" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/web/HandlerMapping.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/config/BeanDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Properties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="967" column="18" selection-start-line="967" selection-start-column="18" selection-end-line="967" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_241/src.zip!/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="211" column="6" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/annotation/Autowired.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/action/MyAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1325">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="51" selection-start-column="51" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/IQueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/IModifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/impl/ModifyService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-226">
+          <caret line="12" column="41" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/demo/service/impl/QueryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/support/BeanDefinitionReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="103" column="1" lean-forward="true" selection-start-line="103" selection-start-column="1" selection-end-line="103" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#572#580#0" expanded="true" />
+            <element signature="e#2824#2840#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/beans/BeanWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/context/ApplicationContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#738#762#0" expanded="true" />
+            <element signature="e#833#849#0" expanded="true" />
+            <element signature="e#928#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v2/src/main/java/org/architect/wxs/spring/framework/web/DispatchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-code-v1/src/main/java/org/architect/wxs/springframework/mvc/servlet/DispatchServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="209" column="53" selection-start-line="209" selection-start-column="45" selection-end-line="209" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/job_all/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
         </state>
       </provider>
     </entry>

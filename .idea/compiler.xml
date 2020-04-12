@@ -8,7 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="design_pattern" />
         <module name="framework_design_principles" />
+        <module name="quartz-standalone" />
+        <module name="spring-code-v1" />
+        <module name="spring-code-v2" />
+        <module name="spring-quartz" />
+        <module name="springboot-quartz" />
       </profile>
     </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-code-v1" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_241/jre/lib/rt.jar&quot;" />
+      <module name="spring-code-v2" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_241/jre/lib/rt.jar&quot;" />
+    </option>
   </component>
 </project>

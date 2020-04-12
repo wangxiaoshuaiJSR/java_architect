@@ -13,6 +13,8 @@
     <modules>
         <module>framework_design_principles</module>
         <module>design_pattern</module>
+        <module>spring-code-v1</module>
+        <module>job_all</module>
     </modules>
 
 
