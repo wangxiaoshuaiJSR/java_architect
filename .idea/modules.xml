@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/design_pattern/design_pattern.iml" filepath="$PROJECT_DIR$/design_pattern/design_pattern.iml" />
+      <module fileurl="file://$PROJECT_DIR$/framework_design_principles/framework_design_principles.iml" filepath="$PROJECT_DIR$/framework_design_principles/framework_design_principles.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_architect_lesson.iml" filepath="$PROJECT_DIR$/java_architect_lesson.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job_all/job_all.iml" filepath="$PROJECT_DIR$/job_all/job_all.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job_all/quartz-standalone/quartz-standalone.iml" filepath="$PROJECT_DIR$/job_all/quartz-standalone/quartz-standalone.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-code-v1/spring-code-v1.iml" filepath="$PROJECT_DIR$/spring-code-v1/spring-code-v1.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-code-v2/spring-code-v2.iml" filepath="$PROJECT_DIR$/spring-code-v2/spring-code-v2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job_all/spring-quartz/spring-quartz.iml" filepath="$PROJECT_DIR$/job_all/spring-quartz/spring-quartz.iml" />
+      <module fileurl="file://$PROJECT_DIR$/job_all/springboot-quartz/springboot-quartz.iml" filepath="$PROJECT_DIR$/job_all/springboot-quartz/springboot-quartz.iml" />
     </modules>
   </component>
 </project>

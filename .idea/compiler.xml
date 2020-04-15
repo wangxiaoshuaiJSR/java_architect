@@ -15,11 +15,22 @@
         <module name="springboot-quartz" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="design_pattern" target="1.5" />
+      <module name="framework_design_principles" target="1.5" />
+      <module name="java_architect_lesson" target="1.5" />
+      <module name="job_all" target="1.5" />
+      <module name="quartz-standalone" target="1.5" />
+      <module name="spring-code-v1" target="1.6" />
+      <module name="spring-code-v2" target="1.8" />
+      <module name="spring-quartz" target="1.5" />
+      <module name="springboot-quartz" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="spring-code-v1" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_241/jre/lib/rt.jar&quot;" />
-      <module name="spring-code-v2" options="-verbose -bootclasspath &quot;C:/Program Files/Java/jdk1.8.0_241/jre/lib/rt.jar&quot;" />
+      <module name="spring-code-v2" options="" />
     </option>
   </component>
 </project>
