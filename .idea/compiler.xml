@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="design_pattern" />
         <module name="framework_design_principles" />
+        <module name="mebatis" />
         <module name="quartz-standalone" />
         <module name="spring-code-v1" />
         <module name="spring-code-v2" />
@@ -20,6 +21,7 @@
       <module name="framework_design_principles" target="1.5" />
       <module name="java_architect_lesson" target="1.5" />
       <module name="job_all" target="1.5" />
+      <module name="mebatis" target="1.5" />
       <module name="quartz-standalone" target="1.5" />
       <module name="spring-code-v1" target="1.6" />
       <module name="spring-code-v2" target="1.8" />
